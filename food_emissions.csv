@@ -1,0 +1,504 @@
+Category,Food product,kg CO2e/ pr. kg,Agriculture,ILUC,Processing,Packaging,Transport,Retail
+Beverages,Apple juice. from concentrate. plastic bottle,1.68,0.54,0.04,0.60,0.31,0.18,0.01
+Beverages,Apple juice. plastic bottle,1.68,0.54,0.04,0.60,0.31,0.18,0.01
+Beverages,Cocoa. instant. without milk. powder,17.30,14.89,2.59,-5.14,4.31,0.65,0.01
+Beverages,Cocoa. powder,17.30,14.89,2.59,-5.14,4.31,0.65,0.01
+Beverages,Coffee. beans. roasted. ground,6.90,5.50,0.61,0.21,0.24,0.35,0.01
+Beverages,Coffee. instant. powder,17.28,9.92,1.13,2.43,3.20,0.61,0.01
+Beverages,Elderberry juice. concentrated. plastic bottle,4.00,2.84,0.25,0.26,0.31,0.35,0.01
+Beverages,Energy drink. canned,0.58,0.15,0.02,0.16,0.17,0.07,0.01
+Beverages,Fruit juice. mixed. sweetened. concentrated. plastic bottle,2.52,1.29,0.08,0.26,0.31,0.59,0.01
+Beverages,Icetea. peach. tetra brik,0.94,0.46,0.04,0.08,0.13,0.21,0.01
+Beverages,Orange juice. plastic bottle,1.49,0.68,0.05,0.09,0.31,0.37,0.01
+Beverages,Smoothie. strawberry/blueberry,1.84,0.94,0.06,0.10,0.31,0.42,0.00
+Beverages,Soft drink. sugar added,0.59,0.15,0.02,0.14,0.20,0.07,0.01
+Beverages,Tea. leaves,16.71,10.60,1.65,1.47,1.94,1.05,0.01
+Beverages,Tomatojuice. canned,1.06,0.30,0.02,0.20,0.22,0.30,0.01
+Beverages,Water. carbonated. glass bottle,0.19,0.00,0.01,0.02,0.13,0.02,0.01
+Beverages,Water. tap. drinking,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Bread and bakery products,American inspired cookie,2.82,0.73,0.06,1.18,0.67,0.18,0.01
+Bread and bakery products,Biscuit. sweet,2.93,0.84,0.07,1.16,0.67,0.18,0.01
+Bread and bakery products,Biscuit. wholemeal. digestive type,2.82,0.73,0.06,1.18,0.67,0.18,0.01
+Bread and bakery products,Bread-crumbs,1.84,1.32,0.09,0.28,0.04,0.09,0.01
+Bread and bakery products,Bread. white. for sausages,1.16,0.87,0.06,0.11,0.04,0.07,0.01
+Bread and bakery products,Bread. white. roll. coarse grain,1.16,0.87,0.06,0.11,0.04,0.07,0.01
+Bread and bakery products,Burger bun,1.16,0.87,0.06,0.11,0.04,0.07,0.01
+Bread and bakery products,Butter cookie. wheat. Danish. industrially produced,3.23,1.00,0.05,1.34,0.67,0.17,0.01
+Bread and bakery products,Cookie. truffle product / unbaked. industrially produced,3.67,2.00,0.26,0.74,0.47,0.20,0.01
+Bread and bakery products,Cream pastry. layer cake,2.32,0.79,0.06,0.87,0.41,0.18,0.00
+Bread and bakery products,Crispbread. knackebrot. rye. coarse,1.62,1.07,0.10,0.31,0.04,0.09,0.01
+Bread and bakery products,Danish pastry. kanelsnegl,1.90,0.80,-0.04,0.99,0.04,0.10,0.01
+Bread and bakery products,Garlic baguette. frozen,1.44,0.74,0.03,0.53,0.04,0.07,0.02
+Bread and bakery products,Marzipan,12.08,9.19,0.91,0.29,0.67,1.01,0.01
+Bread and bakery products,Nougat,5.89,3.10,0.18,1.53,0.67,0.42,0.01
+Bread and bakery products,Pancake puffs,1.54,1.21,-0.14,0.07,0.26,0.14,0.01
+Bread and bakery products,Pizza dough,1.07,0.70,0.05,0.01,0.26,0.06,0.00
+Bread and bakery products,Plain cake. average values,2.32,0.79,0.06,0.87,0.41,0.18,0.00
+Bread and bakery products,Plain cake. chocolate cake,2.32,0.79,0.06,0.87,0.41,0.18,0.00
+Bread and bakery products,Rye bread crumbs with brown sugar,2.21,1.37,0.10,0.45,0.04,0.25,0.01
+Bread and bakery products,Rye bread. dark. whole grains. industrially produced,1.02,0.70,0.06,0.13,0.04,0.07,0.01
+Bread and bakery products,Tortilla bread. wheat,1.16,0.87,0.06,0.11,0.04,0.07,0.01
+Bread and bakery products,Wafer sticks,2.74,2.03,-0.08,0.24,0.22,0.32,0.01
+Bread and bakery products,Wheat bread. for toasting. industrially produced,1.16,0.87,0.06,0.11,0.04,0.07,0.01
+Bread and bakery products,Yeast. baker`s. compressed,1.18,0.00,0.04,0.92,0.20,0.02,0.00
+Candy and sugar products,Chewing gum. no sugar added. all types,5.94,0.00,0.27,4.35,1.29,0.02,0.01
+Candy and sugar products,Chocolate. bitter,7.86,5.97,0.89,0.18,0.49,0.33,0.01
+Candy and sugar products,Chocolate. milk,4.99,2.35,-0.51,2.42,0.37,0.35,0.01
+Candy and sugar products,Cold chocolate,4.99,2.35,-0.51,2.42,0.37,0.35,0.01
+Candy and sugar products,Fruit gums,2.68,1.22,0.10,0.83,0.26,0.27,0.01
+Candy and sugar products,Liquorice. salt,2.72,1.18,0.10,0.92,0.26,0.26,0.01
+Candy and sugar products,Nutella. nut cream,5.16,3.00,0.09,1.26,0.42,0.39,0.01
+Candy and sugar products,Sugar. brown,2.45,1.31,0.07,0.44,0.20,0.42,0.01
+Candy and sugar products,Sugar. sucrose. white,2.66,1.45,0.08,0.47,0.20,0.45,0.01
+Candy and sugar products,Syrup. kitchen,1.75,1.09,0.09,0.05,0.42,0.09,0.01
+Candy and sugar products,Toffees. mixed,2.92,1.24,-0.16,1.13,0.47,0.23,0.01
+Cereals and cereal products,Barley groats,1.78,1.37,0.12,-0.02,0.20,0.10,0.01
+Cereals and cereal products,Breakfast cereal. müsli. average values,2.31,1.35,0.15,0.15,0.58,0.07,0.01
+Cereals and cereal products,Breakfast cereal. oat puffs,2.06,0.89,0.12,0.37,0.58,0.10,0.01
+Cereals and cereal products,Breakfast cereal. sugar pops,2.68,1.22,0.13,0.55,0.58,0.20,0.01
+Cereals and cereal products,Bulgur. parboiled,1.87,1.32,0.10,0.16,0.20,0.09,0.01
+Cereals and cereal products,Corn flakes. average values,2.39,1.22,0.14,0.31,0.58,0.13,0.01
+Cereals and cereal products,Corn flour,1.61,1.23,0.10,-0.02,0.20,0.10,0.01
+Cereals and cereal products,Dumplings. average values,1.33,0.42,0.00,0.57,0.26,0.06,0.00
+Cereals and cereal products,Dumplings. frozen,1.37,0.42,0.01,0.59,0.26,0.06,0.02
+Cereals and cereal products,Food grain. kamut,1.87,1.32,0.10,0.16,0.20,0.09,0.01
+Cereals and cereal products,Fresh pasta. fettucine spinach,1.53,0.96,0.08,0.17,0.23,0.09,0.00
+Cereals and cereal products,Granola bar,4.75,3.09,0.36,0.33,0.67,0.30,0.01
+Cereals and cereal products,Microwave popcorn,1.81,0.55,0.00,0.93,0.26,0.06,0.01
+Cereals and cereal products,Muesli bar. chocolate,3.01,1.59,0.00,0.70,0.58,0.14,0.01
+Cereals and cereal products,Noodles. eggs,1.74,1.16,0.09,0.17,0.23,0.09,0.01
+Cereals and cereal products,Oats. rolled. not enriched,1.94,1.51,0.14,-0.02,0.20,0.10,0.01
+Cereals and cereal products,Pasta,2.05,1.18,0.09,0.18,0.23,0.36,0.01
+Cereals and cereal products,Pop corn. oil and salt added. traditional,1.53,0.62,0.02,0.56,0.26,0.07,0.01
+Cereals and cereal products,Quinoa. black,4.63,3.73,0.43,0.00,0.20,0.26,0.01
+Cereals and cereal products,Rice flour,5.12,4.37,0.17,0.00,0.20,0.38,0.01
+Cereals and cereal products,Rice groats,5.09,4.37,0.17,-0.03,0.20,0.38,0.01
+Cereals and cereal products,Rice noodles,4.93,3.99,0.16,0.18,0.23,0.37,0.01
+Cereals and cereal products,Rice pancakes,4.50,3.10,0.17,0.29,0.67,0.27,0.01
+Cereals and cereal products,Rice. parboiled,5.06,4.17,0.16,0.16,0.20,0.36,0.01
+Cereals and cereal products,Rye flour. dark. whole meal,1.17,0.78,0.09,0.03,0.20,0.07,0.01
+Cereals and cereal products,Rye kernels. whole/cracked,1.17,0.78,0.09,0.03,0.20,0.07,0.01
+Cereals and cereal products,Stuffed fresh pasta,1.88,1.16,-0.17,0.55,0.23,0.11,0.00
+Cereals and cereal products,Taco shells,2.37,0.96,0.02,1.04,0.26,0.09,0.01
+Cereals and cereal products,Tortilla chips. cheese,2.43,1.03,-0.01,1.05,0.26,0.09,0.01
+Cereals and cereal products,Wheat. flour. wholemeal,1.24,0.86,0.07,0.03,0.20,0.07,0.01
+Cereals and cereal products,Wheat. kernels. whole/cracked,1.24,0.86,0.07,0.03,0.20,0.07,0.01
+Fruits and fruit products,Apple,0.61,0.34,0.02,0.00,0.14,0.10,0.01
+Fruits and fruit products,Apricot,0.87,0.53,0.05,0.00,0.14,0.15,0.01
+Fruits and fruit products,Apricot. dried,2.73,1.86,0.09,0.41,0.04,0.32,0.01
+Fruits and fruit products,Avocado,1.22,0.77,0.05,0.00,0.14,0.25,0.01
+Fruits and fruit products,Banana,0.85,0.43,0.03,0.00,0.14,0.25,0.01
+Fruits and fruit products,Blackberry,1.38,1.05,0.10,0.00,0.14,0.07,0.01
+Fruits and fruit products,Blueberries,1.22,0.82,0.07,0.00,0.14,0.18,0.01
+Fruits and fruit products,Blueberry. frozen. unsweetened,0.99,0.42,0.05,0.06,0.06,0.37,0.02
+Fruits and fruit products,Cherry,1.20,0.82,0.07,0.00,0.14,0.17,0.01
+Fruits and fruit products,Cranberry,0.79,0.42,0.03,0.00,0.14,0.19,0.01
+Fruits and fruit products,Currant. black,0.80,0.55,0.06,0.00,0.14,0.04,0.01
+Fruits and fruit products,Currant. red,0.80,0.55,0.06,0.00,0.14,0.04,0.01
+Fruits and fruit products,Elderberry,1.38,1.05,0.10,0.00,0.14,0.07,0.01
+Fruits and fruit products,Gooseberry,1.00,0.66,0.07,0.00,0.14,0.12,0.01
+Fruits and fruit products,Grape,0.88,0.54,0.04,0.00,0.14,0.16,0.01
+Fruits and fruit products,Grapefruit,0.77,0.32,0.03,0.00,0.14,0.28,0.01
+Fruits and fruit products,Half peaches in juice,1.65,0.71,0.05,0.24,0.22,0.42,0.01
+Fruits and fruit products,Half pears in juice,1.23,0.45,0.04,0.24,0.22,0.27,0.01
+Fruits and fruit products,Ice. popsickle. lemonade,1.25,0.29,0.05,0.27,0.51,0.11,0.02
+Fruits and fruit products,Kiwi fruit,0.75,0.43,0.03,0.00,0.14,0.14,0.01
+Fruits and fruit products,Lemon,0.67,0.33,0.03,0.00,0.14,0.17,0.01
+Fruits and fruit products,Lime,0.60,0.33,0.03,0.00,0.06,0.17,0.01
+Fruits and fruit products,Mango,1.01,0.57,0.05,0.00,0.14,0.24,0.01
+Fruits and fruit products,Mango chutney,3.12,1.44,0.10,0.50,0.64,0.44,0.01
+Fruits and fruit products,Melon. honeydew,0.60,0.31,0.02,0.00,0.00,0.26,0.01
+Fruits and fruit products,Nectarine,0.71,0.38,0.03,0.00,0.14,0.15,0.01
+Fruits and fruit products,Orange,0.56,0.31,0.03,0.00,0.06,0.16,0.01
+Fruits and fruit products,Peach,0.71,0.38,0.03,0.00,0.14,0.15,0.01
+Fruits and fruit products,Pear,0.46,0.24,0.03,0.00,0.14,0.04,0.01
+Fruits and fruit products,Pear. canned,0.95,0.39,0.04,0.20,0.22,0.09,0.01
+Fruits and fruit products,Pineapple,0.56,0.30,0.02,0.00,0.00,0.24,0.01
+Fruits and fruit products,Pineapple. canned,1.13,0.28,0.03,0.22,0.22,0.37,0.01
+Fruits and fruit products,Plum,0.90,0.63,0.07,0.00,0.14,0.04,0.01
+Fruits and fruit products,Prune. dried plum,2.73,1.86,0.09,0.41,0.04,0.32,0.01
+Fruits and fruit products,Raisins. seedless,3.58,2.39,0.18,0.41,0.26,0.33,0.01
+Fruits and fruit products,Raspberry,1.20,0.89,0.08,0.00,0.14,0.07,0.01
+Fruits and fruit products,Raspberry marmalade,2.21,1.06,0.06,0.47,0.32,0.30,0.01
+Fruits and fruit products,Raspberry. frozen,1.34,0.81,0.11,0.15,0.06,0.19,0.02
+Fruits and fruit products,Rose hip,0.72,0.41,0.03,0.00,0.14,0.13,0.01
+Fruits and fruit products,Strawberries. frozen. unsweetened,0.60,0.12,0.02,0.01,0.06,0.35,0.02
+Fruits and fruit products,Strawberry,0.65,0.41,0.04,0.00,0.14,0.06,0.01
+Fruits and fruit products,Strawberry jam,2.21,1.06,0.06,0.47,0.32,0.30,0.01
+Fruits and fruit products,Tangerine,0.65,0.32,0.03,0.00,0.14,0.16,0.01
+Fruits and fruit products,Watermelon,0.40,0.22,0.01,0.00,0.00,0.16,0.01
+Legumes and legume products,Beans. baked i tomato sauce. canned,1.72,0.69,0.08,0.20,0.63,0.12,0.01
+Legumes and legume products,Beans. soy. dried,1.84,1.28,0.19,0.00,0.20,0.16,0.01
+Legumes and legume products,Beans. wax,0.95,0.45,0.04,0.00,0.14,0.32,0.01
+Legumes and legume products,Black beans. canned,1.17,0.35,0.05,0.46,0.22,0.07,0.01
+Legumes and legume products,Chickpeas. canned,1.15,0.61,0.09,0.14,0.22,0.08,0.01
+Legumes and legume products,Green lentils. dried,3.08,2.42,0.25,0.00,0.20,0.19,0.01
+Legumes and legume products,Hummus. done,2.26,1.60,0.21,0.03,0.24,0.18,0.00
+Legumes and legume products,Kidney beans. canned,1.17,0.35,0.05,0.46,0.22,0.07,0.01
+Legumes and legume products,Peanut butter,3.83,1.97,0.23,0.85,0.42,0.36,0.01
+Legumes and legume products,Peas. chick/garbanzo. dry,3.60,2.77,0.36,0.00,0.20,0.26,0.01
+Legumes and legume products,Red lentils. dried,3.08,2.42,0.25,0.00,0.20,0.19,0.01
+Legumes and legume products,Tofu. soy bean curd,2.09,0.71,0.10,0.91,0.26,0.11,0.00
+Meat and poultry,Beef. fillet. defatted,227.85,185.44,48.19,-9.07,0.14,3.16,0.00
+Meat and poultry,Beef. low fat,53.19,44.39,11.61,-3.65,0.14,0.70,0.00
+Meat and poultry,Beef. meat. average,74.84,60.82,15.81,-2.97,0.14,1.05,0.00
+Meat and poultry,Beef. mince. 10-15% fat,48.04,39.71,10.37,-2.82,0.14,0.64,0.00
+Meat and poultry,Beef. mince. 15-20% fat,45.47,37.38,9.75,-2.41,0.14,0.62,0.00
+Meat and poultry,Beef. mince. 5-10% fat,50.61,42.05,10.99,-3.23,0.14,0.67,0.00
+Meat and poultry,Beef. pulled beef,56.34,45.24,11.80,-2.12,0.64,0.78,0.00
+Meat and poultry,Beef. roastbeef. cooked. sliced,67.91,55.10,14.32,-2.46,0.02,0.93,0.00
+Meat and poultry,Beef. rump,67.82,55.10,14.32,-2.69,0.14,0.95,0.00
+Meat and poultry,Beef. sausage. salami,49.16,38.94,10.05,-0.54,0.02,0.68,0.01
+Meat and poultry,Beef. T-bone steak,120.83,98.28,25.54,-4.81,0.14,1.68,0.00
+Meat and poultry,Beef. topside. cap off,67.82,55.10,14.32,-2.69,0.14,0.95,0.00
+Meat and poultry,Chicken. breast. boiled. sliced,4.78,3.95,0.26,0.21,0.02,0.35,0.00
+Meat and poultry,Chicken. breast. flesh and skin,5.20,4.40,0.28,-0.02,0.14,0.40,0.00
+Meat and poultry,Chicken. drumstick. flesh and skin,1.88,1.50,0.10,-0.01,0.14,0.15,0.00
+Meat and poultry,Chicken. hen. flesh and skin,3.27,2.71,0.18,-0.01,0.14,0.25,0.00
+Meat and poultry,Chicken. leg. flesh and skin,1.98,1.58,0.11,-0.01,0.14,0.16,0.00
+Meat and poultry,Chicken. meat. average,3.27,2.71,0.18,-0.01,0.14,0.25,0.00
+Meat and poultry,Chicken. minced,5.71,5.01,0.36,-0.09,0.14,0.28,0.00
+Meat and poultry,Chicken. nuggets. deepfried. ready meals,4.34,2.90,0.19,0.71,0.26,0.25,0.02
+Meat and poultry,Chicken. sausage,1.93,1.46,0.10,0.21,0.02,0.14,0.00
+Meat and poultry,Chicken. whole,3.27,2.71,0.18,-0.01,0.14,0.25,0.00
+Meat and poultry,Duck. meat,3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Goose. meat,3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Grisekød. chorizo. sliced,5.96,4.16,0.17,1.12,0.02,0.49,0.00
+Meat and poultry,Grisekød. pepperoni,5.70,4.16,0.18,1.15,0.02,0.17,0.01
+Meat and poultry,Hare. meat,3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Lamb. flank. spiced. cooked,32.77,33.11,3.79,-4.55,0.02,0.41,0.00
+Meat and poultry,Lamb. leg. unspecified,36.43,36.94,4.22,-5.34,0.14,0.48,0.00
+Meat and poultry,Lamb. meat. average values,36.43,36.94,4.22,-5.34,0.14,0.48,0.00
+Meat and poultry,Lamb. minced,34.73,34.99,3.99,-4.82,0.14,0.43,0.00
+Meat and poultry,Meat balls. beef/pork,16.13,12.73,3.01,-0.52,0.63,0.27,0.01
+Meat and poultry,Meat balls. beef/pork. canned,16.13,12.73,3.01,-0.52,0.63,0.27,0.01
+Meat and poultry,Meat balls. beef/pork. frozen,15.79,12.73,3.01,-0.50,0.26,0.27,0.02
+Meat and poultry,Oksekød. kebab,53.92,43.61,11.31,-2.03,0.26,0.76,0.02
+Meat and poultry,Pheasant. flesh and skin,3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Pork sausage. bratwurst,2.16,1.82,0.11,0.12,0.02,0.09,0.00
+Meat and poultry,Pork. bacon. frying,6.43,6.01,0.34,-0.32,0.14,0.25,0.00
+Meat and poultry,Pork. cocktail sausages,2.16,1.82,0.11,0.12,0.02,0.09,0.00
+Meat and poultry,Pork. collar. defatted,4.69,4.97,0.32,-0.90,0.14,0.16,0.00
+Meat and poultry,Pork. flank. spiced. cooked,4.28,3.86,0.22,0.02,0.02,0.16,0.00
+Meat and poultry,Pork. grilled sausages,2.16,1.82,0.11,0.12,0.02,0.09,0.00
+Meat and poultry,Pork. ham. boiled. sliced,4.28,3.86,0.22,0.02,0.02,0.16,0.00
+Meat and poultry,Pork. ham. topside (M. Semimembranosus). lean,4.64,4.30,0.25,-0.23,0.14,0.19,0.00
+Meat and poultry,Pork. liver paste. Danish,3.96,2.56,0.13,-0.04,1.18,0.13,0.00
+Meat and poultry,Pork. loin. lean,5.53,5.16,0.29,-0.27,0.14,0.22,0.00
+Meat and poultry,Pork. meat. average,4.69,4.35,0.25,-0.23,0.14,0.19,0.00
+Meat and poultry,Pork. meatballs,3.61,3.03,0.17,-0.01,0.26,0.14,0.02
+Meat and poultry,Pork. mince. 15-20% fat,3.75,3.44,0.20,-0.18,0.14,0.15,0.00
+Meat and poultry,Pork. mince. 5-10% fat,3.67,3.87,0.25,-0.71,0.14,0.13,0.00
+Meat and poultry,Pork. pulled pork,4.52,3.57,0.26,-0.10,0.64,0.15,0.00
+Meat and poultry,Pork. roast. collar with rind,4.64,4.30,0.25,-0.23,0.14,0.19,0.00
+Meat and poultry,Pork. saddle. smoked. boiled,4.28,3.86,0.22,0.02,0.02,0.16,0.00
+Meat and poultry,Pork. sausage. Danish,2.76,2.44,0.14,-0.10,0.14,0.13,0.00
+Meat and poultry,Pork. sausage. salami,5.70,4.16,0.18,1.15,0.02,0.17,0.01
+Meat and poultry,Pork. tenderloin. trimmed,7.32,6.87,0.39,-0.37,0.14,0.28,0.00
+Meat and poultry,Rabbit. meat,3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Squab (pigeon),3.27,2.71,0.18,0.00,0.14,0.24,0.00
+Meat and poultry,Turkey. breast. boiled/smoked. sliced,4.35,3.65,0.25,0.11,0.02,0.31,0.00
+Meat and poultry,Turkey. meat,4.71,4.06,0.28,-0.05,0.14,0.28,0.00
+Meat and poultry,Turkey. mince. 5-10% fat,4.68,3.80,0.25,0.17,0.14,0.32,0.00
+Meat and poultry,Veal and pork. mince. 15-20% fat,22.04,18.07,4.35,-0.88,0.14,0.35,0.00
+Meat and poultry,Veal. meat. medium fat,74.84,60.82,15.81,-2.97,0.14,1.05,0.00
+Milk. dairy products and eggs,Blended spread. 75% fat,3.21,0.05,-0.14,2.93,0.24,0.13,0.00
+Milk. dairy products and eggs,Blue cheese,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Butter. salt added,3.30,0.12,-0.22,3.11,0.24,0.05,0.00
+Milk. dairy products and eggs,Cheese. Brie. 45 % fidm.,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Cheese. cottage. 20 % fidm.,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Cheese. Cream. 60 % fidm.,5.41,4.46,-2.34,2.52,0.35,0.42,0.00
+Milk. dairy products and eggs,Cheese. Danish Blue. 50 % fidm.,5.41,4.46,-2.34,2.52,0.35,0.42,0.00
+Milk. dairy products and eggs,Cheese. firm. Danbo. 45 % fidm.,5.41,4.46,-2.34,2.52,0.35,0.42,0.00
+Milk. dairy products and eggs,Cheese. hard. Parmesan. 32 % fidm.,5.41,4.46,-2.34,2.52,0.35,0.42,0.00
+Milk. dairy products and eggs,Cheese. semihard. Feta. 40 % fidm,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Cheese. semihard. Mozzarella. 30 % fidm.,5.41,4.46,-2.34,2.52,0.35,0.42,0.00
+Milk. dairy products and eggs,Chilli cheese tops,1.43,1.56,-0.51,-0.03,0.24,0.16,0.02
+Milk. dairy products and eggs,Cold buttermilk soup,0.87,0.63,-0.20,0.18,0.13,0.11,0.01
+Milk. dairy products and eggs,Cream. cultured. 18 % fat,1.57,0.36,-0.23,1.13,0.26,0.06,0.00
+Milk. dairy products and eggs,Cream. whipping. 38 % fat,1.73,0.17,-0.16,1.59,0.08,0.04,0.00
+Milk. dairy products and eggs,Eggs. free-range (indoor),0.97,0.57,0.07,0.00,0.24,0.09,0.01
+Milk. dairy products and eggs,Goat cheese,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Goat milk,2.80,2.24,0.01,0.12,0.08,0.34,0.00
+Milk. dairy products and eggs,Ice cream. dairy (cream based),2.71,1.00,-0.23,1.26,0.51,0.15,0.02
+Milk. dairy products and eggs,Ice cream. dairy. (wholemilk based),2.71,1.00,-0.23,1.26,0.51,0.15,0.02
+Milk. dairy products and eggs,Milk. partly skimmed. 1.5 % fat,0.45,0.50,-0.25,0.04,0.08,0.07,0.00
+Milk. dairy products and eggs,Milk. skimmed. 0.5 % fat,0.41,0.52,-0.26,0.00,0.08,0.07,0.00
+Milk. dairy products and eggs,Milk. skimmed. with chocolate (UHT),0.73,0.71,-0.18,0.01,0.08,0.10,0.01
+Milk. dairy products and eggs,Milk. whole. 3.5 % fat,0.50,0.48,-0.24,0.12,0.08,0.07,0.00
+Milk. dairy products and eggs,Mozarella sticks,1.60,2.67,-1.33,-0.35,0.35,0.26,0.00
+Milk. dairy products and eggs,Skyr. 0.2 % fat,1.03,1.04,-0.52,0.14,0.26,0.12,0.00
+Milk. dairy products and eggs,Yogurt plain. whole milk,0.73,0.47,-0.24,0.17,0.26,0.07,0.00
+Mushrooms and mushroom products,Mushroom,0.38,0.06,0.01,0.00,0.26,0.04,0.00
+Mushrooms and mushroom products,Mushroom. canned,0.62,0.09,0.01,0.20,0.22,0.08,0.01
+Mushrooms and mushroom products,Oyster mushroom,0.38,0.06,0.01,0.00,0.26,0.04,0.00
+Mushrooms and mushroom products,Portobello mushroom,0.26,0.06,0.01,0.00,0.14,0.04,0.01
+Mushrooms and mushroom products,Sliced mushrooms,0.32,0.09,0.01,0.00,0.14,0.08,0.00
+Nuts and seeds,Cashew nuts. dry roasted,12.47,11.24,1.68,-1.60,0.26,0.88,0.01
+Nuts and seeds,Chestnut,2.31,1.73,0.11,0.00,0.14,0.33,0.01
+Nuts and seeds,Hazelnut. dried,6.95,5.36,0.89,0.00,0.26,0.44,0.01
+Nuts and seeds,Peanuts. oilroasted and salted,3.47,1.91,0.22,0.72,0.26,0.35,0.01
+Nuts and seeds,Pumpkin seeds. dried,5.69,4.71,0.41,0.00,0.26,0.31,0.01
+Nuts and seeds,Sesame seeds. decorticated,7.30,5.86,0.75,0.07,0.26,0.35,0.01
+Nuts and seeds,Sunflower seeds. decorticated. dried,3.13,2.29,0.29,0.00,0.26,0.29,0.01
+Nuts and seeds,Walnuts. dried,5.69,4.71,0.41,0.00,0.26,0.31,0.01
+Plant products and drinks,Almondmilk. unfortified,0.53,0.33,0.04,0.02,0.08,0.05,0.01
+Plant products and drinks,Falafel mince,2.06,0.96,0.17,0.18,0.64,0.11,0.00
+Plant products and drinks,Falafel. frost,2.11,0.96,0.17,0.20,0.64,0.11,0.02
+Plant products and drinks,Magarine,2.49,0.00,-0.04,2.11,0.24,0.18,0.00
+Plant products and drinks,Margarine. 70 % fat. table use. soft. vegetable fat,2.49,0.00,-0.04,2.11,0.24,0.18,0.00
+Plant products and drinks,Nut paste with cacao. spreads,5.16,3.00,0.09,1.26,0.42,0.39,0.01
+Plant products and drinks,Oatmilk. with added calcium,0.40,0.12,0.02,0.14,0.08,0.03,0.01
+Plant products and drinks,Oil. rape seed (no eruca acid),3.33,0.00,0.02,2.27,0.56,0.47,0.01
+Plant products and drinks,Olive oil,5.89,4.33,0.64,-0.03,0.56,0.38,0.01
+Plant products and drinks,Pea drink,0.71,0.12,0.03,0.38,0.10,0.07,0.01
+Plant products and drinks,Plant paste. pea protein and mushroom,0.93,0.49,0.06,0.02,0.24,0.11,0.00
+Plant products and drinks,Ricemilk. with added calcium,1.40,1.12,0.05,0.03,0.08,0.11,0.01
+Plant products and drinks,Soymilk. with added calcium,0.46,0.18,0.04,0.10,0.08,0.05,0.01
+Plant products and drinks,Sunflower oil,2.79,0.00,0.00,1.92,0.56,0.30,0.01
+Plant products and drinks,Vegan bacon,0.35,0.06,0.03,0.08,0.14,0.03,0.00
+Plant products and drinks,Vegan ball. soy based,0.66,0.05,0.04,0.22,0.26,0.07,0.02
+Plant products and drinks,Vegan bean paste,2.14,1.12,0.12,0.06,0.64,0.20,0.01
+Plant products and drinks,Vegan block,2.60,0.00,-0.02,2.30,0.24,0.08,0.00
+Plant products and drinks,Vegan burger. soy based,0.69,0.08,0.04,0.21,0.26,0.07,0.02
+Plant products and drinks,Vegan cheese. grated or sliced,1.00,0.23,0.14,0.23,0.35,0.04,0.01
+Plant products and drinks,Vegan chorizo,1.68,0.07,0.11,0.77,0.64,0.06,0.02
+Plant products and drinks,Vegan cold cuts,2.67,1.67,0.10,0.51,0.02,0.36,0.00
+Plant products and drinks,Vegan fillet pieces,1.78,0.01,0.11,0.95,0.64,0.05,0.02
+Plant products and drinks,Vegan ice cream. oats,2.31,1.22,0.21,0.20,0.51,0.14,0.02
+Plant products and drinks,Vegan minced. pea based,0.88,0.39,0.09,0.15,0.14,0.12,0.00
+Plant products and drinks,Vegan mushroom burger,1.34,0.09,0.07,0.48,0.64,0.06,0.00
+Plant products and drinks,Vegan nugget. soy based,1.95,0.25,0.09,0.87,0.64,0.07,0.02
+Plant products and drinks,Vegan pulled beans,1.89,0.01,0.12,1.07,0.64,0.03,0.02
+Plant products and drinks,Vegan sausage. soy based,1.43,0.08,0.04,0.95,0.26,0.08,0.02
+Plant products and drinks,Vegan schnitzel. soy based,1.87,0.46,0.07,0.94,0.26,0.12,0.02
+Plant products and drinks,Vegetable steaks,1.52,0.74,0.10,0.27,0.24,0.14,0.02
+Ready meals,Chicken. grilled. ready meal,4.71,2.98,0.21,0.07,1.18,0.27,0.00
+Ready meals,Chili con carne. ready meals,30.41,23.70,6.13,-1.07,1.18,0.47,0.00
+Ready meals,Croque monsieur. ready meals,1.60,1.61,-0.37,-0.04,0.26,0.14,0.00
+Ready meals,Cup noodles chicken,1.89,1.13,0.09,0.30,0.26,0.10,0.01
+Ready meals,Daal. ready meals,2.11,0.94,0.13,0.27,0.64,0.13,0.00
+Ready meals,Lasagne. beef. ready meals,12.16,9.29,2.24,-0.24,0.64,0.23,0.00
+Ready meals,Lasagne. vegan. ready meals,1.46,0.51,0.00,0.22,0.64,0.09,0.00
+Ready meals,Lasagne. vegetarian. ready meals,1.53,0.65,-0.09,0.22,0.64,0.10,0.00
+Ready meals,Leek pie with bacon. ready meals,1.42,0.78,-0.08,0.40,0.21,0.08,0.02
+Ready meals,Liver. pig. in cream sauce. frozen. ready meals,2.98,1.37,0.08,0.79,0.64,0.08,0.02
+Ready meals,Meatballs in curry with rice and curry sauce. ready meals,2.35,1.22,0.10,0.27,0.64,0.09,0.02
+Ready meals,Minced meat. spaghetti sauce type. average values. ready meals,19.74,15.38,4.03,-0.60,0.64,0.29,0.00
+Ready meals,Pancakes. ready meals,2.44,1.14,-0.03,0.51,0.67,0.14,0.01
+Ready meals,Pizza Napolitana. frozen. ready meals,2.47,1.16,-0.37,1.34,0.21,0.11,0.02
+Ready meals,Pizza Romana. frozen. ready meals,2.70,1.54,-0.19,1.01,0.21,0.11,0.02
+Ready meals,Pizza with broccoli. frozen. ready meals,2.35,0.77,-0.11,1.35,0.21,0.11,0.02
+Ready meals,Pizza with meat and seafood. tomato and cheese. ready meals,4.10,2.18,0.17,1.40,0.21,0.14,0.00
+Ready meals,Pizza with meat. tomato and cheese. ready meals,4.56,2.76,0.34,1.09,0.21,0.16,0.00
+Ready meals,Pizza with salami. tomato and cheese. ready meals,3.04,1.59,-0.10,1.23,0.21,0.10,0.00
+Ready meals,Pizza with seafood. tomato and cheese. ready meals,3.63,1.59,0.00,1.71,0.21,0.11,0.00
+Ready meals,Pizza with tomato and cheese. ready meals,2.44,1.16,-0.38,1.34,0.21,0.11,0.00
+Ready meals,Pizza with tuna. frozen. ready meals,2.29,0.59,-0.14,1.51,0.21,0.09,0.02
+Ready meals,Pizza with vegetables. fruit. tomato and cheese. ready meals,2.32,0.77,-0.12,1.35,0.21,0.11,0.00
+Ready meals,Pork in curry sauce. frozen. ready meals,4.72,3.66,0.26,-0.06,0.64,0.19,0.02
+Ready meals,Pork. minced and bound with flour and egg. boiled. frozen. ready meals,2.24,1.36,0.04,0.08,0.64,0.09,0.02
+Ready meals,Potato hotchpotch. beef. ready meals,18.91,14.49,3.73,0.13,0.26,0.29,0.02
+Ready meals,Potato hotchpotch. mixed meat. ready meals,12.55,8.51,2.02,1.49,0.26,0.25,0.02
+Ready meals,Samosa. vegetarian frost,1.28,0.54,0.06,0.34,0.24,0.08,0.02
+Ready meals,Soup. tomato. ready to eat,2.19,1.18,0.06,0.58,0.22,0.13,0.01
+Ready meals,Spring roll. deepfried. ready meals,3.11,1.46,0.12,0.74,0.64,0.15,0.00
+Ready meals,Spring roll. frozen. ready meals,3.11,1.46,0.12,0.74,0.64,0.15,0.00
+Ready meals,Spring rolls. beef. ready meals,5.36,3.17,0.80,0.59,0.64,0.13,0.02
+Ready meals,Spring rolls. chicken. ready meals,2.58,0.88,0.13,0.79,0.64,0.12,0.02
+Ready meals,Spring rolls. vegetables. ready meals,3.11,1.46,0.12,0.74,0.64,0.15,0.00
+Ready meals,Sushi. ready meals,2.30,1.06,0.09,0.39,0.64,0.11,0.00
+Ready meals,Thai meal panang curry chicken. ready meal,3.61,2.45,0.23,0.12,0.64,0.16,0.00
+Ready meals,Turtle. fake. average values. ready meals,26.36,20.74,5.36,-0.75,0.63,0.38,0.01
+Seafood,Bream,8.03,4.57,0.60,2.51,0.14,0.21,0.00
+Seafood,Burbot,7.14,4.07,0.61,2.26,0.14,0.06,0.00
+Seafood,Caviar. capelin roe,4.15,0.00,0.17,2.49,1.47,0.02,0.00
+Seafood,Caviar. lumpfish roe,4.16,0.00,0.18,2.49,1.47,0.02,0.01
+Seafood,Charr,6.91,4.07,0.59,2.04,0.14,0.06,0.00
+Seafood,Cod. fillet,2.81,0.44,0.15,2.04,0.14,0.03,0.00
+Seafood,Cod. fillet. breaded,2.41,0.40,0.12,1.58,0.26,0.05,0.00
+Seafood,Cod. liver,2.81,0.00,0.15,2.49,0.14,0.02,0.00
+Seafood,Cod. liver. canned,9.03,0.00,0.01,2.49,6.50,0.02,0.01
+Seafood,Cod. liver. smoked,3.58,0.00,0.21,3.20,0.14,0.02,0.00
+Seafood,Cod. roe,4.15,0.00,0.17,2.49,1.47,0.02,0.00
+Seafood,Cod. roe. canned,4.24,0.00,0.16,2.49,1.56,0.02,0.01
+Seafood,Crab claws. meat,9.77,1.22,0.47,7.97,0.08,0.03,0.00
+Seafood,Crab. boiled,4.42,0.49,0.19,3.17,0.08,0.49,0.00
+Seafood,Crayfish,2.54,1.12,0.20,0.52,0.26,0.44,0.00
+Seafood,Fish balls. canned,2.19,0.21,0.05,1.26,0.63,0.04,0.01
+Seafood,Fish cake. fried,3.35,0.40,0.12,2.14,0.64,0.04,0.00
+Seafood,Fish fillet. breaded. deepfried,2.71,0.45,0.14,1.81,0.26,0.04,0.00
+Seafood,Fish fingers. breaded. frozen,2.37,0.40,0.15,1.52,0.24,0.05,0.02
+Seafood,Fish pudding,2.84,0.30,0.10,1.75,0.64,0.04,0.00
+Seafood,Garfish,2.63,0.44,0.14,1.87,0.14,0.03,0.00
+Seafood,Halibut. greenland. smoked,2.69,0.56,0.17,1.80,0.14,0.03,0.00
+Seafood,Herring,2.23,0.44,0.12,1.49,0.14,0.03,0.00
+Seafood,Herring. pickled. canned,5.35,1.05,0.20,2.42,1.56,0.13,0.00
+Seafood,Lobster,2.54,1.12,0.20,0.52,0.26,0.44,0.00
+Seafood,Lobster. canned,6.35,2.81,0.49,1.31,1.56,0.19,0.01
+Seafood,Mackerel,1.98,0.44,0.11,1.26,0.14,0.03,0.00
+Seafood,Mussel,0.19,0.00,0.00,0.08,0.08,0.02,0.00
+Seafood,Mussels. in water. canned,1.69,0.00,0.02,0.08,1.56,0.02,0.01
+Seafood,Octopus,0.38,0.00,0.01,0.08,0.26,0.02,0.00
+Seafood,Oyster,0.84,0.00,0.01,0.45,0.08,0.31,0.00
+Seafood,Perch,4.08,2.45,0.22,1.23,0.14,0.03,0.00
+Seafood,Pike,3.67,2.72,0.29,0.49,0.14,0.03,0.00
+Seafood,Pikeperch,3.67,2.72,0.29,0.49,0.14,0.03,0.00
+Seafood,Plaice,2.81,0.44,0.15,2.04,0.14,0.03,0.00
+Seafood,Plaice. fillet. breaded. dybfrost,2.45,0.40,0.13,1.59,0.26,0.05,0.02
+Seafood,Prawn. giant tiger. aquaculture. boiled. frozen,10.04,3.89,0.61,5.25,0.08,0.19,0.02
+Seafood,Saithe,2.81,0.44,0.15,2.04,0.14,0.03,0.00
+Seafood,Saithe (UK). pollock (US). fillet. frozen,2.71,0.44,0.15,1.92,0.14,0.03,0.02
+Seafood,Salmon. atlantic. aquaculture,2.09,0.44,0.12,1.36,0.14,0.03,0.00
+Seafood,Salmon. Atlantic. aquaculture. cold smoked,2.78,0.56,0.17,1.80,0.14,0.11,0.00
+Seafood,Salmon. atlantic. aquaculture. hot smoked,3.08,0.56,0.17,2.10,0.14,0.11,0.00
+Seafood,Salmon. Atlantic. wild,2.09,0.44,0.12,1.36,0.14,0.03,0.00
+Seafood,Shrimp. boiled. in brine,8.40,3.39,0.66,3.87,0.26,0.23,0.00
+Seafood,Shrimps. boiled. shell removed,8.40,3.39,0.66,3.87,0.26,0.23,0.00
+Seafood,Shrimps. canned,9.71,3.39,0.67,3.87,1.56,0.22,0.01
+Seafood,Trout,1.33,0.62,0.20,0.35,0.14,0.03,0.00
+Seafood,Tuna,3.10,0.44,0.17,2.32,0.14,0.03,0.00
+Seafood,Tuna. in tomato sauce. canned,4.48,0.33,0.17,2.77,1.17,0.03,0.01
+Seafood,Tuna. in water. canned,4.03,0.00,0.17,2.65,1.17,0.02,0.01
+Seafood,Whitefish,7.14,4.07,0.61,2.26,0.14,0.06,0.00
+Seasonings and spices,Basil. dried,2.80,0.00,0.05,0.00,2.71,0.02,0.01
+Seasonings and spices,Bouillon. beef. concentrated. cube,9.94,6.84,1.82,0.63,0.41,0.24,0.01
+Seasonings and spices,Bouillon. beef. prepared,0.55,0.17,0.06,0.15,0.13,0.03,0.01
+Seasonings and spices,Bouillon. chicken. prepared,0.35,0.01,0.02,0.15,0.13,0.03,0.01
+Seasonings and spices,Chili Sauce,2.10,0.81,0.06,0.36,0.64,0.23,0.01
+Seasonings and spices,Curry mayonnaise salad,3.13,0.20,0.01,1.91,0.64,0.37,0.01
+Seasonings and spices,Curry powder,6.09,2.76,0.27,0.00,2.71,0.34,0.01
+Seasonings and spices,Egg salad,1.50,0.51,0.04,0.58,0.24,0.12,0.00
+Seasonings and spices,Green curry paste,2.06,0.60,0.05,0.40,0.78,0.23,0.01
+Seasonings and spices,Honey,0.81,0.15,0.04,0.14,0.41,0.07,0.01
+Seasonings and spices,Italian mayonnaise salad,3.13,0.20,0.01,1.91,0.64,0.37,0.01
+Seasonings and spices,Mackerel mayonnaise salad,2.34,0.26,-0.02,1.82,0.24,0.04,0.00
+Seasonings and spices,Mayonnaise,3.13,0.20,0.01,1.91,0.64,0.37,0.01
+Seasonings and spices,Mayonnaise. low fat,1.17,0.12,0.01,0.35,0.64,0.05,0.01
+Seasonings and spices,Mustard dill sauce,1.86,0.45,0.04,0.60,0.64,0.13,0.00
+Seasonings and spices,Mustard. yellow. ready made,1.95,0.67,0.09,0.34,0.78,0.06,0.01
+Seasonings and spices,Pepper. black,5.19,2.00,0.21,0.00,2.71,0.25,0.01
+Seasonings and spices,Pesto,4.24,1.81,0.08,1.15,0.64,0.56,0.01
+Seasonings and spices,Remoulade. average values,1.86,0.54,0.06,0.71,0.42,0.13,0.01
+Seasonings and spices,Salad dressing. oil and vinegar,3.43,0.24,-0.11,2.84,0.42,0.03,0.01
+Seasonings and spices,Salad dressing. thousand island,3.11,0.39,0.05,2.08,0.42,0.16,0.01
+Seasonings and spices,Salsa. hot,1.42,0.33,0.03,0.25,0.64,0.17,0.01
+Seasonings and spices,Salt. table,0.44,0.00,0.03,0.21,0.20,0.00,0.01
+Seasonings and spices,Sauce. barbeque,2.26,0.91,0.07,0.72,0.42,0.14,0.01
+Seasonings and spices,Soya sauce,1.88,0.60,0.08,0.27,0.85,0.08,0.01
+Seasonings and spices,Tahin. sesame paste,7.70,5.86,0.76,0.09,0.64,0.35,0.01
+Seasonings and spices,Tomato ketchup. bottled,2.12,0.96,0.07,0.59,0.42,0.08,0.01
+Seasonings and spices,Tuna salad,2.06,0.14,0.08,1.48,0.24,0.12,0.00
+Seasonings and spices,Vegan mayo,2.67,0.17,0.01,1.55,0.64,0.29,0.01
+Seasonings and spices,Vinegar,1.58,0.66,0.07,0.40,0.41,0.03,0.01
+Vegetables and vegetable products,Ajvar. relish,2.96,1.33,0.08,0.26,0.64,0.65,0.01
+Vegetables and vegetable products,Artichoke,0.98,0.68,0.04,0.00,0.06,0.19,0.01
+Vegetables and vegetable products,Arugula salad. rinsed,0.57,0.25,0.03,0.00,0.26,0.03,0.00
+Vegetables and vegetable products,Asparagus slices,1.79,1.03,0.09,0.28,0.22,0.16,0.01
+Vegetables and vegetable products,Asparagus. green,1.08,0.82,0.08,0.00,0.06,0.11,0.01
+Vegetables and vegetable products,Aubergine,0.99,0.51,0.03,0.00,0.14,0.30,0.01
+Vegetables and vegetable products,Baby corn,0.69,0.16,0.03,0.14,0.31,0.03,0.01
+Vegetables and vegetable products,Bamboo shoots. canned. nonsalted,1.37,0.57,0.05,0.24,0.22,0.28,0.01
+Vegetables and vegetable products,Basil. fresh,0.38,0.25,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Bean sprouts,0.95,0.45,0.04,0.00,0.14,0.32,0.01
+Vegetables and vegetable products,Bean sprouts. mung,0.95,0.45,0.04,0.00,0.14,0.32,0.01
+Vegetables and vegetable products,Beet. red,0.33,0.19,0.02,0.00,0.06,0.06,0.01
+Vegetables and vegetable products,Beet. red. canned,0.86,0.30,0.02,0.20,0.22,0.11,0.01
+Vegetables and vegetable products,Bell pepper. sweet,1.07,0.61,0.04,0.00,0.14,0.28,0.01
+Vegetables and vegetable products,Broccoli,0.63,0.42,0.04,0.00,0.06,0.11,0.01
+Vegetables and vegetable products,Broccoli. frozen,0.82,0.52,0.05,0.02,0.06,0.16,0.02
+Vegetables and vegetable products,Brussels sprouts,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Cabbage. Chinese. pak choi,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Cabbage. red,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Cabbage. red. canned. no sugar added,0.79,0.26,0.03,0.20,0.22,0.07,0.01
+Vegetables and vegetable products,Cabbage. savoy,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Cabbage. spring,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Cabbage. white,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Capers,1.05,0.23,0.03,0.20,0.22,0.35,0.01
+Vegetables and vegetable products,Carrot,0.27,0.15,0.02,0.00,0.06,0.04,0.01
+Vegetables and vegetable products,Carrot. frozen,0.38,0.18,0.02,0.02,0.06,0.07,0.02
+Vegetables and vegetable products,Cassava,0.70,0.38,0.04,0.00,0.06,0.21,0.01
+Vegetables and vegetable products,Cauliflower,0.63,0.42,0.04,0.00,0.06,0.11,0.01
+Vegetables and vegetable products,Cauliflower. frozen,0.82,0.52,0.05,0.02,0.06,0.16,0.02
+Vegetables and vegetable products,Celeriac. celery root,0.38,0.25,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Celery,0.38,0.25,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Chives,0.43,0.30,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Coconut milk,6.33,5.05,0.50,0.24,0.22,0.31,0.01
+Vegetables and vegetable products,Corn cob,0.98,0.73,0.06,0.00,0.14,0.05,0.01
+Vegetables and vegetable products,Cornichons,3.07,1.15,0.08,0.92,0.64,0.29,0.01
+Vegetables and vegetable products,Cress. garden,0.45,0.25,0.03,0.00,0.14,0.03,0.01
+Vegetables and vegetable products,Cucumber,0.40,0.15,0.01,0.00,0.14,0.08,0.01
+Vegetables and vegetable products,Cucumber. large. pickled,3.07,1.15,0.08,0.92,0.64,0.29,0.01
+Vegetables and vegetable products,Dill,0.45,0.25,0.03,0.00,0.14,0.03,0.01
+Vegetables and vegetable products,Fennel. root,0.15,0.00,0.01,0.00,0.14,0.00,0.01
+Vegetables and vegetable products,French fries. deepfried. fast food,2.85,0.50,-0.01,1.95,0.26,0.14,0.00
+Vegetables and vegetable products,French fries. frost,0.80,0.51,0.04,0.02,0.06,0.14,0.02
+Vegetables and vegetable products,Garlic,1.25,0.87,0.05,0.00,0.06,0.26,0.01
+Vegetables and vegetable products,Garlic in oil,2.46,0.72,0.04,0.76,0.64,0.30,0.01
+Vegetables and vegetable products,Gherkin cucumber,0.40,0.15,0.01,0.00,0.14,0.08,0.01
+Vegetables and vegetable products,Gherkin. pickled,3.07,1.15,0.08,0.92,0.64,0.29,0.01
+Vegetables and vegetable products,Ginger root,1.27,0.73,0.05,0.00,0.14,0.35,0.01
+Vegetables and vegetable products,Green beans. haricot verts,0.95,0.45,0.04,0.00,0.14,0.32,0.01
+Vegetables and vegetable products,Green beans. haricot verts. frozen,2.16,1.67,0.11,0.03,0.06,0.26,0.02
+Vegetables and vegetable products,Jalapenos,1.51,0.72,0.03,0.21,0.22,0.32,0.01
+Vegetables and vegetable products,Kale,0.29,0.16,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Leek,0.43,0.30,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Lentils. sprouted,3.00,2.42,0.24,0.00,0.14,0.19,0.01
+Vegetables and vegetable products,Lettuce. iceberg (incl. crisphead types),0.46,0.27,0.03,0.00,0.06,0.10,0.01
+Vegetables and vegetable products,Lettuce. looseleaf,0.46,0.27,0.03,0.00,0.06,0.10,0.01
+Vegetables and vegetable products,Marinated artichokes,4.15,2.07,0.11,0.71,0.64,0.62,0.01
+Vegetables and vegetable products,Marinated grilled peppers,2.53,0.47,0.03,1.05,0.64,0.34,0.01
+Vegetables and vegetable products,Olive tapenade,2.77,1.42,0.20,0.31,0.64,0.20,0.01
+Vegetables and vegetable products,Olives. black. without stones. in brine,2.05,1.03,0.11,0.22,0.51,0.17,0.01
+Vegetables and vegetable products,Olives. green. pickled. canned,2.05,1.03,0.11,0.22,0.51,0.17,0.01
+Vegetables and vegetable products,Onion,0.27,0.15,0.02,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Onions. chopped and deepfried,4.25,0.67,-0.03,2.44,1.04,0.11,0.01
+Vegetables and vegetable products,Onions. chopped. frozen,0.38,0.19,0.03,0.02,0.06,0.06,0.02
+Vegetables and vegetable products,Onions. spring,0.81,0.56,0.04,0.00,0.06,0.14,0.01
+Vegetables and vegetable products,Parsley,0.45,0.25,0.03,0.00,0.14,0.03,0.01
+Vegetables and vegetable products,Parsley root,0.95,0.61,0.06,0.00,0.06,0.21,0.01
+Vegetables and vegetable products,Pastasauce,1.92,0.52,0.04,0.54,0.78,0.04,0.01
+Vegetables and vegetable products,Peas. green,1.27,0.92,0.10,0.00,0.06,0.18,0.01
+Vegetables and vegetable products,Peas. green. canned,2.36,1.48,0.15,0.20,0.22,0.30,0.01
+Vegetables and vegetable products,Peas. green. frozen,1.62,1.15,0.12,0.02,0.06,0.24,0.02
+Vegetables and vegetable products,Pepper. hot chili,1.07,0.61,0.04,0.00,0.14,0.28,0.01
+Vegetables and vegetable products,Pepper. hot chili. canned,1.51,0.72,0.03,0.21,0.22,0.32,0.01
+Vegetables and vegetable products,Pizzasauce,1.92,0.52,0.04,0.54,0.78,0.04,0.01
+Vegetables and vegetable products,Potato,0.41,0.26,0.02,0.00,0.06,0.06,0.01
+Vegetables and vegetable products,Potato crisps,4.24,0.77,-0.01,3.01,0.26,0.21,0.01
+Vegetables and vegetable products,Potato crisps. coarse,4.24,0.77,-0.01,3.01,0.26,0.21,0.01
+Vegetables and vegetable products,Potato flour,1.68,1.00,0.07,0.14,0.20,0.26,0.01
+Vegetables and vegetable products,Potato gratin / cream potatoes,1.07,0.37,-0.01,0.35,0.26,0.10,0.00
+Vegetables and vegetable products,Potato salad,1.25,0.34,0.03,0.53,0.24,0.11,0.00
+Vegetables and vegetable products,Potato. canned,0.99,0.41,0.03,0.20,0.22,0.12,0.01
+Vegetables and vegetable products,Potatoes. mashed. instant powder with dry milk,5.38,2.37,-0.17,2.10,0.58,0.49,0.01
+Vegetables and vegetable products,Pumpkin,0.84,0.48,0.04,0.00,0.06,0.25,0.01
+Vegetables and vegetable products,Radish,0.45,0.25,0.03,0.00,0.14,0.03,0.01
+Vegetables and vegetable products,Red onion,0.81,0.56,0.04,0.00,0.06,0.14,0.01
+Vegetables and vegetable products,Rhubarb,0.38,0.25,0.03,0.00,0.06,0.03,0.01
+Vegetables and vegetable products,Spinach,0.48,0.31,0.03,0.00,0.06,0.08,0.01
+Vegetables and vegetable products,Spinach. chopped. frozen,0.64,0.38,0.04,0.02,0.06,0.12,0.02
+Vegetables and vegetable products,Squash,0.84,0.48,0.04,0.00,0.06,0.25,0.01
+Vegetables and vegetable products,Sugar pea. snow pea. mangetout,1.34,0.92,0.10,0.00,0.14,0.18,0.01
+Vegetables and vegetable products,Sundried tomatoes,2.72,2.04,0.09,0.00,0.26,0.33,0.01
+Vegetables and vegetable products,Sweetcorn. kernels. canned,0.69,0.16,0.03,0.14,0.31,0.03,0.01
+Vegetables and vegetable products,Tomato,0.48,0.21,0.01,0.00,0.14,0.11,0.01
+Vegetables and vegetable products,Tomato paste. concentrated,2.67,1.00,0.06,0.51,0.78,0.31,0.01
+Vegetables and vegetable products,Tomato. dried,2.72,2.04,0.09,0.00,0.26,0.33,0.01
+Vegetables and vegetable products,Tomato. peeled. canned,1.06,0.30,0.02,0.20,0.22,0.30,0.01
+Vegetables and vegetable products,Turnip,0.27,0.15,0.02,0.00,0.06,0.04,0.01
+Wine. beer and spirits,Alcoholic soda. 4% vol.,0.90,0.47,0.03,0.13,0.20,0.07,0.01
+Wine. beer and spirits,Aquavit. 40 % vol.. average values,3.57,2.95,0.09,-0.11,0.37,0.27,0.01
+Wine. beer and spirits,Beer. household. alc. 1.7 % by vol.. canned,0.68,0.19,0.03,0.24,0.17,0.03,0.01
+Wine. beer and spirits,Beer. lager. alc. 4.4 % by vol.. canned,0.68,0.19,0.03,0.24,0.17,0.03,0.01
+Wine. beer and spirits,Beer. strong. alc. 7.6 % by vol.. canned,0.68,0.19,0.03,0.24,0.17,0.03,0.01
+Wine. beer and spirits,BITTER. Gammel Dansk Bitter Dram,3.57,2.95,0.09,-0.11,0.37,0.27,0.01
+Wine. beer and spirits,Brandy. cognac,5.76,2.13,0.15,2.78,0.37,0.33,0.01
+Wine. beer and spirits,Cider 4.5% vol.,1.15,0.38,0.03,0.39,0.20,0.14,0.01
+Wine. beer and spirits,Liqueur. coffee with cream,3.56,1.45,0.02,1.34,0.37,0.38,0.01
+Wine. beer and spirits,Sherry. dry,2.91,1.05,0.08,1.04,0.37,0.37,0.01
+Wine. beer and spirits,Vodka,3.57,2.95,0.09,-0.11,0.37,0.27,0.01
+Wine. beer and spirits,Wine. red,1.65,0.66,0.08,0.45,0.41,0.04,0.01
+Wine. beer and spirits,Wine. rosé,1.65,0.66,0.08,0.45,0.41,0.04,0.01
+Wine. beer and spirits,Wine. white. average values,1.65,0.66,0.08,0.45,0.41,0.04,0.01
+Wine. beer and spirits,Wine. white. sparkling. champagne,1.65,0.66,0.08,0.45,0.41,0.04,0.01
