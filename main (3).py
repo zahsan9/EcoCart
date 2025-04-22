@@ -4,6 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 import os
 from tqdm import tqdm
 
+# my key - AIzaSyCkIMkcY6tfssOX-f8qowLvN8jI7GVF3Lk
 gemini_api_key = os.environ["GEMINI_API_KEY"]
 genai.configure(api_key=gemini_api_key)
 
