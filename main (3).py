@@ -1,59 +1,77 @@
 import pandas as pd
 import google.generativeai as genai
 from sklearn.preprocessing import MinMaxScaler
+from functools import lru_cache
 import os
 import time
 
-gemini_api_key = os.environ["GEMINI_API_KEY"]
-genai.configure(api_key=gemini_api_key)
+# ** need to use own key **
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+model = genai.GenerativeModel('gemini-1.5-flash')
 
-df = pd.read_csv("foodemissions.xlsx - ES.csv")
-df.dropna(subset=['Total kg CO2-eq/kg'], inplace=True)
+try:
+    df = pd.read_excel("foodemissions.xlsx", sheet_name="ES")
+    df = df[~df['Total kg CO2-eq/kg'].isna()].reset_index(drop=True)
+except Exception as e:
+    raise SystemError(f"Data loading failed: {str(e)}")
 
-emission_components = [
-    "Agriculture", "iLUC", "Food processing", "Packaging", "Transport", "Retail"
-]
+# emission components and weights
+EMISSION_WEIGHTS = {
+    "Agriculture": 0.35,
+    "iLUC": 0.25,
+    "Food processing": 0.15,
+    "Packaging": 0.10,
+    "Transport": 0.10,
+    "Retail": 0.05
+}
 
+# normalize emission components
 scaler = MinMaxScaler()
-df[emission_components] = scaler.fit_transform(df[emission_components])
+df[list(EMISSION_WEIGHTS)] = scaler.fit_transform(df[list(EMISSION_WEIGHTS)])
 
-sustainability_cache = {}
 
-def get_sustainability_score(food_item: str) -> str:
-    """Main function to be called by UI"""
-    row = df[df['Food product'] == food_item]
+@lru_cache(maxsize=500)
+def get_sustainability_score(food_item: str) -> dict:
+    """Returns structured data for UI integration"""
+    clean_item = food_item.strip().lower()
+    matches = df[df['Food product'].str.lower().str.contains(clean_item)]
 
-    if row.empty:
-        return "Food item not found"
+    if matches.empty:
+        return {"error": "Item not found"}
 
-    if food_item in sustainability_cache:
-        return sustainability_cache[food_item]
+    row = matches.iloc[0]
+    weighted_score = sum(row[comp] * weight
+                         for comp, weight in EMISSION_WEIGHTS.items())
 
-    prompt = build_prompt(row.iloc[0])
+    # classification
+    if weighted_score < 0.3:
+        category = "High"
+    elif weighted_score < 0.7:
+        category = "Medium"
+    else:
+        category = "Low"
 
-    classification = get_gemini_label(prompt)
+    rationale = generate_rationale(row, category)
 
-    sustainability_cache[food_item] = classification
+    return {
+        "score": category,
+        "rationale": rationale,
+        "components": row[list(EMISSION_WEIGHTS)].to_dict(),
+        "total_emissions": row['Total kg CO2-eq/kg']
+    }
 
-    return classification
 
-def build_prompt(row):
-    """Helper function to create the prompt"""
-    description = "\n".join([f"{comp}: {row[comp]:.2f}" for comp in emission_components])
-    return f"""Given the following environmental impact of a food product, classify its sustainability as Low, Medium, or High. Consider lower values as more sustainable.
+def generate_rationale(row, category) -> str:
+    """Generates AI-powered explanation with guardrails"""
+    prompt = f"""Analyze this food product's sustainability using actual emission data:
+    Total CO2-eq/kg: {row['Total kg CO2-eq/kg']:.1f}
+    {", ".join([f"{k}: {v:.2f}" for k,v in row[EMISSION_WEIGHTS].items()])}
 
-Environmental impact (normalized values):
-{description}
+    Explain why it's {category} sustainability in 3 bullet points using real-world comparisons."""
 
-Sustainability:"""
-
-def get_gemini_label(prompt):
-    """Helper function with rate limiting"""
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
-        time.sleep(4)  # delay between API calls
-        return response.text.strip()
-    except Exception as e:
-        print(f"API Error: {str(e)}")
-        return "Classification Error"
+        time.sleep(2)
+        return response.text.replace("**", "")
+    except genai.types.BlockedPromptException:
+        return "Sustainability analysis unavailable"
