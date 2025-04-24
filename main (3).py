@@ -34,8 +34,9 @@ df[list(EMISSION_WEIGHTS)] = scaler.fit_transform(df[list(EMISSION_WEIGHTS)])
 def get_sustainability_score(food_item: str) -> dict:
     """Returns structured data for UI integration"""
     clean_item = food_item.strip().lower()
-    matches = df[df['Food product'].str.lower().str.contains(clean_item)]
-
+    matches = df[df['Food product'].str.lower() == clean_item]
+    if matches.empty:
+        matches = df[df['Food product'].str.lower().str.contains(clean_item)]
     if matches.empty:
         return {"error": "Item not found"}
 
