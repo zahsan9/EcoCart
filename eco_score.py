@@ -1,117 +1,104 @@
-import pandas as pd
-import google.generativeai as genai
-from sklearn.preprocessing import MinMaxScaler
-from functools import lru_cache
 import os
 import time
+import pandas as pd
+import google.generativeai as genai
+from functools import lru_cache
 
-# ** Use your actual Gemini API key **
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash')
-
-# Load and preprocess data
-try:
-    df = pd.read_excel("foodemissions.xlsx", sheet_name="ES")
-    df = df[~df['Total kg CO2-eq/kg'].isna()].reset_index(drop=True)
-except Exception as e:
-    raise SystemError(f"Data loading failed: {str(e)}")
-
-# Emission component weights
+# Constants
 EMISSION_WEIGHTS = {
     "Agriculture": 0.35,
-    "iLUC": 0.25,
-    "Food processing": 0.15,
+    "ILUC": 0.25,
+    "Processing": 0.15,
     "Packaging": 0.10,
     "Transport": 0.10,
     "Retail": 0.05
 }
+REQUIRED_COLUMNS = ['Food product', 'kg CO2e/ pr. kg', 'Image Link'] + list(EMISSION_WEIGHTS.keys())
 
-# Normalize components using MinMaxScaler
-scaler = MinMaxScaler()
-df[list(EMISSION_WEIGHTS)] = scaler.fit_transform(df[list(EMISSION_WEIGHTS)])
+# Gemini setup
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+model = genai.GenerativeModel('gemini-1.5-flash')
 
+def load_emissions_data(file_path: str) -> pd.DataFrame:
+    try:
+        df = pd.read_csv(file_path, encoding='latin1')
+
+        missing_cols = set(REQUIRED_COLUMNS) - set(df.columns)
+        if missing_cols:
+            raise ValueError(f"Missing required columns: {missing_cols}")
+
+        df = df[~df['kg CO2e/ pr. kg'].isna()].reset_index(drop=True)
+
+        if 'Image Link' not in df.columns:
+            df['Image Link'] = None
+            print("Warning: Image Link column not found - using null values")
+
+        return df
+
+    except Exception as e:
+        raise SystemError(f"Data loading failed: {str(e)}")
+
+# Load full dataset
+df = load_emissions_data("food_emissions.csv")
 
 @lru_cache(maxsize=500)
 def get_sustainability_score(food_item: str) -> dict:
-    """Returns structured sustainability score data for a given food item."""
     clean_item = food_item.strip().lower()
-    matches = df[df['Food product'].str.lower() == clean_item]
+    matches = df[df['Food product'].str.lower().str.contains(clean_item)]
 
     if matches.empty:
-        matches = df[df['Food product'].str.lower().str.contains(clean_item)]
-
-    if matches.empty:
-        return {"error": "Item not found"}
+        return {"error": "Item not found", "image_link": None}
 
     row = matches.iloc[0]
-    weighted_score = sum(row[comp] * weight for comp, weight in EMISSION_WEIGHTS.items())
-
-    if weighted_score < 0.3:
-        category = "High"
-    elif weighted_score < 0.7:
-        category = "Medium"
-    else:
-        category = "Low"
-
-    rationale = generate_rationale(row, category)
+    eco_score = sum(row[comp] * weight for comp, weight in EMISSION_WEIGHTS.items())
 
     return {
-        "score": category,
-        "rationale": rationale,
+        "label": _get_sustainability_category(eco_score),
+        "eco_score": round(float(eco_score), 4),
+        "rationale": _generate_rationale(row),
         "components": row[list(EMISSION_WEIGHTS)].to_dict(),
-        "total_emissions": row['Total kg CO2-eq/kg']
+        "total_emissions": float(row['kg CO2e/ pr. kg']),
+        "image_link": row['Image Link']
     }
 
+def _get_sustainability_category(score: float) -> str:
+    if score <= 0.5:
+        return "High Sustainability"
+    elif score <= 1.5:
+        return "Medium Sustainability"
+    else:
+        return "Low Sustainability"
 
-def generate_rationale(row, category) -> str:
-    """Generates an AI-powered sustainability explanation."""
-    emission_components = ",\n".join([
-        f'"{comp}": {row[comp]:.2f}' for comp in EMISSION_WEIGHTS
-    ])
+def _generate_rationale(row: pd.Series) -> str:
+    if not os.environ.get("GEMINI_API_KEY"):
+        return "Sustainability analysis unavailable: Missing Gemini API key"
+
+    components_str = "\n".join(f"- {comp}: {row[comp]:.2f}" for comp in EMISSION_WEIGHTS)
 
     prompt = f"""
-You are a sustainability analysis assistant. Given data about a grocery food item’s carbon emissions from various sources, calculate its sustainability score and assign a label ("High", "Medium", or "Low") based on this scoring formula:
+    You are a sustainability analysis assistant. A user is asking for a sustainability evaluation of a grocery item based on raw carbon emissions from various sources. Here are the unnormalized component emissions in kg CO2e per kg of product.
 
-Use Min-Max normalization for each emission component (Agriculture, iLUC, Food processing, Packaging, Transport, Retail) across all products. Normalize each component to a value between 0 and 1.
+    Total Emissions: {row['kg CO2e/ pr. kg']:.2f}
+    Breakdown:
+    {components_str}
 
-Then calculate the sustainability score using this weighted sum:
-S = (EAgriculture * 0.35) + (EiLUC * 0.25) + (EFoodprocessing * 0.15) + (EPackaging * 0.10) + (ETransport * 0.10) + (ERetail * 0.05)
-
-Finally, assign a score label:
-- "High" if S < 0.3
-- "Medium" if 0.3 ≤ S < 0.7
-- "Low" if S ≥ 0.7
-
-Also, summarize your reasoning for the score in 2–3 bullet points, considering total emissions and individual component weights.
-
-Here is the data:
-Total CO2-eq/kg: {row['Total kg CO2-eq/kg']:.1f}
-Components:
-{emission_components}
-
-Return your result in this format:
-{{
-  "score": "{category}",
-  "rationale": "- <reason 1>\\n- <reason 2>\\n...",
-  "components": {{
-    "Agriculture": <normalized_value>,
-    "iLUC": <normalized_value>,
-    "Food processing": <normalized_value>,
-    "Packaging": <normalized_value>,
-    "Transport": <normalized_value>,
-    "Retail": <normalized_value>
-  }},
-  "total_emissions": <raw_total_emissions>
-}}
-"""
+    Explain the environmental impact in a user friendly way as well as whether the user is suggested to purchase the product or not. Include an "Overall Summary: ", "Environmental Impact: ", and "Recommendation: " in your response. Only include some percentages relevent to your analysis, don't be overly verbose or technical. Be enthusiastic and friendly. Don't greet user, simply provide the sections requested.
+    """
 
     try:
         response = model.generate_content(prompt)
-        time.sleep(2)  # Safety delay
-        return response.text.replace("**", "")
-    except genai.types.BlockedPromptException:
-        return "Sustainability analysis unavailable"
+        time.sleep(1)
+        return response.text.replace("**", "").strip()
+    except Exception as e:
+        print(f"Gemini API Error: {str(e)}")
+        return "Sustainability analysis unavailable: API error occurred"
 
+def main():
+    from pprint import pprint
+    food_item = "Cocoa. powder"
+    print(f"\n🔍 Checking sustainability score for: {food_item}")
+    result = get_sustainability_score(food_item)
+    pprint(result)
 
-# Optional: test example
-# print(get_sustainability_score("beef (beef herd)"))
+if __name__ == "__main__":
+    main()
