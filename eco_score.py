@@ -1,6 +1,7 @@
 import os
 import time
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 import google.generativeai as genai
 from functools import lru_cache
 
@@ -33,6 +34,11 @@ def load_emissions_data(file_path: str) -> pd.DataFrame:
             df['Image Link'] = None
             print("Warning: Image Link column not found - using null values")
 
+        # Compute raw and normalized eco scores
+        df['eco_score_raw'] = df.apply(lambda row: sum(row[comp] * EMISSION_WEIGHTS[comp] for comp in EMISSION_WEIGHTS), axis=1)
+        scaler = MinMaxScaler()
+        df['eco_score_normalized'] = scaler.fit_transform(df[['eco_score_raw']])
+
         return df
 
     except Exception as e:
@@ -50,26 +56,29 @@ def get_sustainability_score(food_item: str) -> dict:
         return {"error": "Item not found", "image_link": None}
 
     row = matches.iloc[0]
-    eco_score = sum(row[comp] * weight for comp, weight in EMISSION_WEIGHTS.items())
+    raw_score = row['eco_score_raw']
+    normalized_score = row['eco_score_normalized']
+    label = _get_sustainability_category(normalized_score)
 
     return {
-        "label": _get_sustainability_category(eco_score),
-        "eco_score": round(float(eco_score), 4),
-        "rationale": _generate_rationale(row),
+        "label": label,
+        "eco_score": round(float(normalized_score), 4),
+        "eco_score_raw": round(float(raw_score), 4),
+        "rationale": _generate_rationale(row, label),
         "components": row[list(EMISSION_WEIGHTS)].to_dict(),
         "total_emissions": float(row['kg CO2e/ pr. kg']),
         "image_link": row['Image Link']
     }
 
 def _get_sustainability_category(score: float) -> str:
-    if score <= 0.5:
+    if score <= 0.33:
         return "High Sustainability"
-    elif score <= 1.5:
+    elif score <= 0.66:
         return "Medium Sustainability"
     else:
         return "Low Sustainability"
 
-def _generate_rationale(row: pd.Series) -> str:
+def _generate_rationale(row: pd.Series, label: str) -> str:
     if not os.environ.get("GEMINI_API_KEY"):
         return "Sustainability analysis unavailable: Missing Gemini API key"
 
@@ -78,11 +87,12 @@ def _generate_rationale(row: pd.Series) -> str:
     prompt = f"""
     You are a sustainability analysis assistant. A user is asking for a sustainability evaluation of a grocery item based on raw carbon emissions from various sources. Here are the unnormalized component emissions in kg CO2e per kg of product.
 
-    Total Emissions: {row['kg CO2e/ pr. kg']:.2f}
-    Breakdown:
+    - Sustainability Label: {label}
+    - Total Emissions: {row['kg CO2e/ pr. kg']:.2f}
+    - Breakdown:
     {components_str}
 
-    Explain the environmental impact in a user friendly way as well as whether the user is suggested to purchase the product or not. Include an "Overall Summary: ", "Environmental Impact: ", and "Recommendation: " in your response. Only include some percentages relevent to your analysis, don't be overly verbose or technical. Be enthusiastic and friendly. Don't greet user, simply provide the sections requested.
+    Explain the environmental impact in a user friendly way as well as whether the user is suggested to purchase the product or not. Include an "Overall Summary: ", "Environmental Impact: ", and "Recommendation: " in your response. Only include some percentages relevant to your analysis, don't be overly verbose or technical. Be enthusiastic and friendly. Don't greet user, simply provide the sections requested.
     """
 
     try:
