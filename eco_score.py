@@ -29,7 +29,7 @@ else:
 def load_emissions_data(file_path: str) -> pd.DataFrame:
     """Load and preprocess emissions dataset."""
     try:
-        df = pd.read_csv(file_path, encoding='ISO-8859-1')
+        df = pd.read_excel(file_path)
 
         # Verify all required columns are present
         missing_cols = set(REQUIRED_COLUMNS) - set(df.columns)
